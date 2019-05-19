@@ -1,0 +1,11 @@
+mid = (j + i) / 2
+
+(arr[j].counts + ... + arr[mid2 - 1].counts) * mid
+ - (arr[j].counts * arr[j].point + ... + arr[mid2 - 1].counts * arr[mid2 - 1].point)
+
+counts의 누적합
+counts*point의 누적합이 필요
+
+sum (0 to mid2 - 1) arr[].counts 
+- sum(-1 to j-1) arr[].counts (만약 mid2-1이 0이거나 j가 0이면, 이 부분은 수행하지 않는다.)
+

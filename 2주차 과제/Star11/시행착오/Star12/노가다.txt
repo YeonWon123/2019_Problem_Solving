@@ -1,0 +1,91 @@
+#include <iostream>
+#include <queue>
+using namespace std;
+
+char **board;
+queue<int> column_list;
+void star(int N, int row);
+
+int main()
+{
+	int N;
+	cin >> N;
+
+	board = new char*[N+1];
+	for (int i = 0; i < N+1; i++)
+		board[i] = new char[2*N+1];
+
+	for (int i = 0; i < N+1; i++)
+		for (int j = 0; j < 2*N+1; j++)
+			board[i][j] = ' ';
+
+	int column = 3;
+	int row = 4;
+
+	star(N, 1);
+	if (N == 3) goto PRINT;
+
+
+
+
+	star(N - 3, 4);
+	star(N + 3, 4);
+	if (N == 6) goto PRINT;
+
+	star(N - 6, 7);
+	star(N + 6, 7);
+
+	star(N - 9, 10);
+	star(N - 3, 10);
+	star(N + 3, 10);
+	star(N + 9, 10);
+	if (N == 12) goto PRINT;
+
+	star(N - 12, 13);
+	star(N + 12, 13);
+
+	star(N - 15, 16);
+	star(N - 9, 16);
+	star(N + 9, 16);
+	star(N + 15, 16);
+
+	star(N - 18, 19);
+	star(N - 6, 19);
+	star(N + 6, 19);
+	star(N + 18, 19);
+
+	star(N - 21, 22);
+	star(N - 15, 22);
+	star(N - 9, 22);
+	star(N - 3, 22);
+	star(N + 3, 22);
+	star(N + 9, 22);
+	star(N + 15, 22);
+	star(N + 21, 22);
+	if (N == 24) goto PRINT;
+
+	PRINT:
+	for (int i = 1; i < N+1; i++)
+	{
+		for (int j = 1; j < 2*N+1; j++)
+			cout << board[i][j];
+
+		cout << "\n";
+	}
+
+	return 0;
+}
+
+void star(int N, int row)
+{
+	board[row][N] = '*';
+
+	board[row + 1][N - 1] = '*';
+	board[row + 1][N + 1] = '*';
+
+	board[row + 2][N - 2] = '*';
+	board[row + 2][N - 1] = '*';
+	board[row + 2][N] = '*';
+	board[row + 2][N + 1] = '*';
+	board[row + 2][N + 2] = '*';
+}

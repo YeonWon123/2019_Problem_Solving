@@ -1,0 +1,15 @@
+﻿  robert_hood_answer.cpp
+c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(58): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'll'입니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(58): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(58): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(58): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'll'입니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(58): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(58): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(67): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'll'입니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(67): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(67): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(67): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'll'입니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(67): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(67): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+c:\users\weonw\desktop\robort_hood_answer\robert_hood_answer.cpp(81): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  robort_hood_answer.vcxproj -> C:\Users\weonw\Desktop\robort_hood_answer\Debug\robort_hood_answer.exe

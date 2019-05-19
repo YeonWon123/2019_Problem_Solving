@@ -1,0 +1,3 @@
+Set : 같은 원소는 1번만?
+
+Set의 경우 Kruskal's algorithm, MST에서 사용!

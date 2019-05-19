@@ -1,0 +1,5 @@
+﻿  BOARDCOVER.cpp
+c:\users\weonw\desktop\boardcover\boardcover.cpp(24): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\boardcover\boardcover.cpp(38): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\boardcover\boardcover.cpp(39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BOARDCOVER.vcxproj -> C:\Users\weonw\Desktop\BOARDCOVER\Debug\BOARDCOVER.exe

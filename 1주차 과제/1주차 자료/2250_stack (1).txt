@@ -1,0 +1,86 @@
+#include<cstdio>
+#include<stack>
+using namespace std;
+
+
+int N, root;
+int node[10001][2];
+int x[10001];
+bool ischild[10001];
+bool visited[10001];
+int width[10000][2];
+int maxdepth, maxwidth;
+stack<int> S;
+
+void solution();
+
+int main()
+{
+	scanf("%d", &N);
+	for (int i = 1; i < N+1; i++) 
+	{
+		int index;
+		scanf("%d", &index);
+		scanf("%d %d", node[index], node[index] + 1);
+		ischild[node[index][0]] = true;
+		ischild[node[index][1]] = true;
+	}
+	
+	for (int i = 1; i < N + 1; i++)
+		if (!ischild[i])
+			root = i;
+
+	solution();
+	printf("%d %d", maxdepth, maxwidth);
+	return 0;
+}
+
+void solution()
+{
+	S.push(root);
+	int curx = 1;
+	while (!S.empty()){
+		int cur = S.top();
+		int curdepth = S.size();
+
+		//오른쪽 자식까지 모두 탐색 후 돌아온 노드의 경우 연산하지 않고 pop
+		if(visited[cur] == true){
+			S.pop();
+			continue;
+		}
+
+		// 왼쪽자식 탐색
+		if (node[cur][0] != -1){
+			S.push(node[cur][0]);
+			node[cur][0] = -1;
+			continue;
+		}
+
+		// 현재노드 탐색
+		visited[cur]=true;
+		x[cur] = curx++;
+		if (width[curdepth][0] == 0){
+			width[curdepth][0] = x[cur];
+			width[curdepth][1] = x[cur];
+		}
+		else if (x[cur] < width[curdepth][0]){
+			width[curdepth][0] = x[cur];
+		}
+		else if (width[curdepth][1] < x[cur]){
+			width[curdepth][1] = x[cur];
+		}
+
+		int val = width[curdepth][1] - width[curdepth][0] + 1;
+		if (maxwidth < val){
+			maxdepth = curdepth;
+			maxwidth = val;
+		}
+		else if (maxwidth == val &&  maxdepth > curdepth)
+			maxdepth = curdepth;
+
+		//오른쪽 자식 탐색
+		if (node[cur][1] != -1)
+			S.push(node[cur][1]);
+
+	}
+}

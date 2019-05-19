@@ -1,0 +1,58 @@
+1주차 : 	회전하는 큐 (deque, list)
+	구슬 탈출 (bfs, queue)
+	트리의 높이와 너비 (recursion, tree, inorder traversal)
+
+2주차 : 	쿼드트리 (divide-and-conquer)
+	별 찍기 (divide-and-conquer)
+		-> 별 찍기 17, 18, 19, 20, 21, 22, 23
+	숫자 구슬 (parametic search)
+		-> 랜선 자르기 https://www.acmicpc.net/problem/1654 (성공)
+		-> 나무 자르기 https://www.acmicpc.net/problem/2805 (중요!!) (성공)
+		-> 공유기 설치 https://www.acmicpc.net/problem/2110
+		-> 날카로운 눈 https://www.acmicpc.net/problem/1637	
+		https://lyzqm.blogspot.com/2017/11/1300-k-3090.html
+		-> K번째 수 https://www.acmicpc.net/problem/7469
+
+3주차 : 	사탕 (dynamic programming) - memorization, 0-1 knapsack problem
+		-> 동전 https://www.acmicpc.net/problem/2293 / https://www.acmicpc.net/problem/2294 (성공)
+		-> 회의실 배정 https://www.acmicpc.net/problem/1931 (성공)
+		-> 놀이공원 https://www.acmicpc.net/problem/2594
+		
+	택배 (dynamic programming) - Chained Matrix Multiplication
+		-> 카드 구매하기 https://deliorange.tistory.com/80 (0-1 Knapsack problem)
+		-> 골드 러시 https://www.acmicpc.net/problem/10275 (0-1 Knapsack problem)
+		-> 서울에서 경산까지 https://www.acmicpc.net/problem/14863
+		-> 동전 0 https://www.acmicpc.net/problem/11047 (동전문제 완료!) (성공)
+		-> 동전 교환 https://www.acmicpc.net/problem/1532
+		-> 소방차 https://www.acmicpc.net/problem/2586
+		-> 선물상자 https://www.acmicpc.net/problem/10919
+		-> 통학버스 https://www.acmicpc.net/problem/2513
+		-> 로프 https://www.acmicpc.net/problem/2217
+		-> 포도주 시식 https://www.acmicpc.net/problem/2156
+		-> ATM https://www.acmicpc.net/problem/11399 (성공)
+
+4주차 :	가장 긴 증가하는 부분 수열 (dynamic programming) - (LCS 문제)
+		-> LCS https://www.acmicpc.net/problem/9251 // https://www.acmicpc.net/problem/9252 // https://www.acmicpc.net/problem/1958 (LCS 3은 고민해보기!) (성공)
+		-> LCS 4 https://www.acmicpc.net/problem/13711 (성공)
+		-> 연속 합 https://www.acmicpc.net/problem/1912
+		-> 가장 긴 감소하는 부분 수열 https://www.acmicpc.net/problem/11722 (성공)
+		-> 가장 긴 바이토닉 부분 수열 https://www.acmicpc.net/problem/11054
+		-> 가장 큰 증가 부분 수열    https://www.acmicpc.net/problem/11055
+		-> 가장 긴 증가하는 팰린드롬 부분 수열 https://www.acmicpc.net/problem/16161
+		-> 민군이의 계략 https://www.acmicpc.net/problem/11568
+		-> 부분 수열의 길이 https://www.acmicpc.net/problem/9623
+		-> 증가하는 부분 수열 https://www.acmicpc.net/problem/13555 / https://www.acmicpc.net/problem/13556
+		-> 줄세우기 https://www.acmicpc.net/problem/2631
+
+	팰린드롬 분할 (dynamic programming)
+		-> 팰린드롬? https://www.acmicpc.net/problem/10942 (성공)
+
+5주차 : 	사과와 바나나 (dynamic programming) - maximum sum의 2차원 문제
+	욕심쟁이 판다 (dynamic programming) - memorization 문제
+		-> 인접한 비트의 개수 https://www.acmicpc.net/problem/2698
+		-> 목장 건설하기 https://www.acmicpc.net/problem/14925
+		-> 카드게임 https://www.acmicpc.net/problem/11062 (memorization)
+		-> 격자상의 경로 https://www.acmicpc.net/problem/10164 (성공)
+		-> 점핑 사다리 https://www.acmicpc.net/problem/2537
+
+cf) 타일채우기 문제

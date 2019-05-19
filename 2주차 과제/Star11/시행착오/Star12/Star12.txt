@@ -1,0 +1,15 @@
+int column = 3, row = 4
+
+row의 증가는 row = row + 3;
+column값의 최조 증가는 column = column * 2;
+
+if(column % 2 == 0)
+queue값 - 3 -> queue보관
+queue + 3 -> queue보관
+else
+
+queue에서 가장 작은 값 - 3 -> queue보관
+queue에서 가장 큰 값 + 3  -> queue보관
+
+
+

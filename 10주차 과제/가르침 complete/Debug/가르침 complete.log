@@ -1,0 +1,5 @@
+﻿  가르침 complete.cpp
+c:\users\weonw\desktop\가르침 complete\가르침 complete.cpp(60): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\가르침 complete\가르침 complete.cpp(70): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\가르침 complete\가르침 complete.cpp(109): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  가르침 complete.vcxproj -> C:\Users\weonw\Desktop\가르침 complete\Debug\가르침 complete.exe

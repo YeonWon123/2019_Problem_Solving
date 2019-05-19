@@ -1,0 +1,7 @@
+﻿  robort_hood_answer_2.cpp
+c:\users\weonw\desktop\robort_hood_answer_2\robort_hood_answer_2.cpp(62): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\robort_hood_answer_2\robort_hood_answer_2.cpp(68): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\robort_hood_answer_2\robort_hood_answer_2.cpp(69): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\robort_hood_answer_2\robort_hood_answer_2.cpp(82): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  robort_hood_answer_2.vcxproj -> C:\Users\weonw\Desktop\robort_hood_answer_2\Debug\robort_hood_answer_2.exe

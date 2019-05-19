@@ -1,0 +1,9 @@
+﻿  Delivery.cpp
+c:\users\weonw\desktop\delivery\delivery\delivery.cpp(53): error C2661: 'std::vector<POINT_COUNT,std::allocator<_Ty>>::push_back': 오버로드된 함수에서 2개의 매개 변수를 사용하지 않습니다.
+          with
+          [
+              _Ty=POINT_COUNT
+          ]
+c:\users\weonw\desktop\delivery\delivery\delivery.cpp(54): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\delivery\delivery\delivery.cpp(59): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\delivery\delivery\delivery.cpp(71): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.

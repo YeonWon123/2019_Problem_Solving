@@ -1,0 +1,9 @@
+﻿  Number_bead.cpp
+c:\users\weonw\desktop\number_bead\number_bead.cpp(56): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\number_bead\number_bead.cpp(62): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\number_bead\number_bead.cpp(68): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\number_bead\number_bead.cpp(100): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\number_bead\number_bead.cpp(136): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\number_bead\number_bead.cpp(155): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\weonw\desktop\number_bead\number_bead.cpp(170): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Number_bead.vcxproj -> C:\Users\weonw\Desktop\Number_bead\Debug\Number_bead.exe
